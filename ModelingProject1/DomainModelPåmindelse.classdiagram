@@ -147,7 +147,7 @@
           </association>
         </targetEnds>
         <ownedAttributesInternal>
-          <property Id="e5ee00c9-7a96-474d-8c9e-330dec322902" name="Date" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+          <property Id="e5ee00c9-7a96-474d-8c9e-330dec322902" name="Dato" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
             <elementDefinition Id="2444623e-522f-4ac9-b05c-dd2d57ac9588" />
           </property>
           <property Id="bfa3de7c-e540-48c7-9d79-94e1bb5ba717" name="Time" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
