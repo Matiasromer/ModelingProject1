@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="af270dbf-75d5-45e4-96c6-caa349d578c1"
+  name="View" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="f5285c1d-a50f-4bbb-a277-fb47794f0059"
+        name="MainPage"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <suppliersInternal>
+          <dependency
+            Id="8c41d8f4-5699-4458-8c80-6781e7df5f92">
+            <classMoniker
+              Id="f3a24586-90bd-47d6-9209-223a0e483e87"
+              LastKnownName="VaccineViewModel"
+              LastKnownLocation="Package_1127.uml" />
+          </dependency>
+        </suppliersInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="a92e183b-52d0-4015-a52a-0c363a8886b0"
+        name="Bruger"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <suppliersInternal>
+          <dependency
+            Id="c2a134db-1cd2-4a20-8157-c429acc7b31d">
+            <classMoniker
+              Id="f3a24586-90bd-47d6-9209-223a0e483e87"
+              LastKnownName="VaccineViewModel"
+              LastKnownLocation="Package_1127.uml" />
+          </dependency>
+        </suppliersInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="c6566260-787b-450a-8e27-234e94696b09"
+        name="Kalender"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <suppliersInternal>
+          <dependency
+            Id="b4a27d55-397d-497a-8d2c-3ed9edb5f998">
+            <classMoniker
+              Id="f3a24586-90bd-47d6-9209-223a0e483e87"
+              LastKnownName="VaccineViewModel"
+              LastKnownLocation="Package_1127.uml" />
+          </dependency>
+        </suppliersInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="830b7d43-bf1c-4a50-b442-7cd1c59c246b"
+        name="OpretVacc"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <suppliersInternal>
+          <dependency
+            Id="666af427-abbf-4bd9-85c6-cf89801c4db4">
+            <classMoniker
+              Id="f3a24586-90bd-47d6-9209-223a0e483e87"
+              LastKnownName="VaccineViewModel"
+              LastKnownLocation="Package_1127.uml" />
+          </dependency>
+        </suppliersInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="e4886dff-4dfd-4ee9-bbba-0c1f769b9c2f"
+        name="Påmindelse"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <suppliersInternal>
+          <dependency
+            Id="26567f4d-c413-4493-8668-a2a364d7f919">
+            <classMoniker
+              Id="f3a24586-90bd-47d6-9209-223a0e483e87"
+              LastKnownName="VaccineViewModel"
+              LastKnownLocation="Package_1127.uml" />
+          </dependency>
+        </suppliersInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="61794b89-a2e2-4bd3-8589-20d608b6280f"
+        name="Register"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <suppliersInternal>
+          <dependency
+            Id="7daacae3-12d9-46c0-8f39-0d9893c73e34">
+            <classMoniker
+              Id="f3a24586-90bd-47d6-9209-223a0e483e87"
+              LastKnownName="VaccineViewModel"
+              LastKnownLocation="Package_1127.uml" />
+          </dependency>
+        </suppliersInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

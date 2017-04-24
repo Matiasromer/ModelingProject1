@@ -1,217 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="ed2452cb-6e09-459a-9fb7-e173cf2ec828" name="KlassediagramPåmindelse" linkedPackageId="6396c3ad-35ae-4fa1-b877-b83302d7edb6" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
   <packagedElements>
-    <logicalClassDesignerModelHasTypes>
-      <class Id="51baf7e3-e5bf-491e-afae-9e07da9e2fa4" name="Bruger/Account" isAbstract="false" isLeaf="false" isActiveClass="false">
-        <elementDefinition Id="7878e42b-ae6e-468f-a4af-b0b8411b4cce" />
-        <targetEnds>
-          <association Id="7f238598-0d09-42ce-be5b-1d6ad81fa687" isDerived="false" sourceEndRoleName="Bruger/Account" targetEndRoleName="Registrering" isLeaf="false" isAbstract="false">
-            <classMoniker Id="982e89c5-4bd1-4d53-97d5-9fa7fb98a5e2" LastKnownName="Registrering" />
-            <relationshipOwnedElementsInternal>
-              <associationHasOwnedEnds>
-                <memberEnd Id="7c8bbb9c-edd2-4c3c-88f7-c1117fe3d64f" name="Bruger/Account" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Composite" isComposite="false" isNavigableOwned="false">
-                  <elementDefinition Id="53168fb7-aada-48e4-b3a7-ed6e28fd4cf4" />
-                </memberEnd>
-              </associationHasOwnedEnds>
-              <associationHasOwnedEnds>
-                <memberEnd Id="7747c177-39b1-4b14-8095-ff8d319406ac" name="Registrering" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="true">
-                  <lowerValueInternal>
-                    <literalString Id="5f2af9b2-499a-4f50-80f7-42861a19b698" name="Lower" value="1">
-                      <elementDefinition Id="b2816554-962e-4d83-88c6-2205f53b97c6" />
-                    </literalString>
-                  </lowerValueInternal>
-                  <upperValueInternal>
-                    <literalString Id="b458be02-6250-4521-8a3d-49377ce7072f" name="Upper" value=".*">
-                      <elementDefinition Id="2b0e846e-638f-4f79-9b58-cebafbecb832" />
-                    </literalString>
-                  </upperValueInternal>
-                  <elementDefinition Id="69d453fe-96d5-4cdc-8ee5-8fb7f4390f2c" />
-                </memberEnd>
-              </associationHasOwnedEnds>
-            </relationshipOwnedElementsInternal>
-            <elementDefinition Id="85560a09-0e82-43c5-96cd-90198d627e88" />
-          </association>
-          <association Id="27369b44-76ed-401e-9b84-64021d946443" isDerived="false" sourceEndRoleName="Bruger/Account" targetEndRoleName="Kalender" isLeaf="false" isAbstract="false">
-            <classMoniker Id="765dbb08-8355-4a4b-b2af-506d1cb9d44f" LastKnownName="Kalender" />
-            <relationshipOwnedElementsInternal>
-              <associationHasOwnedEnds>
-                <memberEnd Id="0bf44086-ad0e-4abe-83bc-8f25794cc493" name="Bruger/Account" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
-                  <elementDefinition Id="d03b4fae-c051-42a4-be15-f729b346d789" />
-                </memberEnd>
-              </associationHasOwnedEnds>
-              <associationHasOwnedEnds>
-                <memberEnd Id="e83d92b8-3b6d-4c9f-b3d0-b853abc6293d" name="Kalender" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
-                  <elementDefinition Id="04688502-009d-4965-8778-07712b9a2a89" />
-                </memberEnd>
-              </associationHasOwnedEnds>
-            </relationshipOwnedElementsInternal>
-            <elementDefinition Id="3780cedd-9958-4daa-a2a8-02ea36a98966" />
-          </association>
-        </targetEnds>
-        <ownedAttributesInternal>
-          <property Id="9add4879-da8c-4d44-823f-b554aeb7ea17" name="Navn" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
-            <elementDefinition Id="f23387fd-f8a5-4dc9-8603-5c87ab9f4f0a" />
-            <type_NamedElement>
-              <referencedTypeMoniker Id="6f20eeb8-153a-4324-8720-25578b8f5551" LastKnownName="String" />
-            </type_NamedElement>
-          </property>
-          <property Id="3f47a107-73a8-4dfd-9524-b1cfb3c45907" name="Cpr-Nummer" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
-            <elementDefinition Id="bff46de7-b835-49de-9b50-35f85b28db73" />
-          </property>
-          <property Id="ca05ede1-c794-44c8-985f-bcbfd5640002" name="Underbruger" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
-            <elementDefinition Id="be4be501-057f-4494-b6a1-a81dd6a2a94c" />
-            <type_NamedElement>
-              <referencedTypeMoniker Id="e4d0faa6-9530-4bba-8682-66feb7a3a8dc" LastKnownName="string" />
-            </type_NamedElement>
-          </property>
-          <property Id="0287f803-f801-41e1-b027-876614a8d476" name="Email" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
-            <elementDefinition Id="a689827f-ebaa-4f59-9a19-c82a8966213a" />
-            <type_NamedElement>
-              <referencedTypeMoniker Id="bc873eb0-5c64-4291-bd0a-1e38967e4450" LastKnownName="String" />
-            </type_NamedElement>
-          </property>
-        </ownedAttributesInternal>
-        <ownedOperationsInternal>
-          <operation Id="eaccf70d-c7c5-45c2-b94c-8132410188f6" name="BrugerMethod" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
-            <elementDefinition Id="f94ef064-c150-43f9-b7bd-462187f11bf5" />
-          </operation>
-          <operation Id="1f7a3a5a-3bdd-43a5-8e66-62bbfa3d8029" name="GetRegistrering" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
-            <elementDefinition Id="73dc30cd-5047-48ca-a014-eb006b41ba9a" />
-          </operation>
-        </ownedOperationsInternal>
-      </class>
-    </logicalClassDesignerModelHasTypes>
-    <logicalClassDesignerModelHasTypes>
-      <class Id="982e89c5-4bd1-4d53-97d5-9fa7fb98a5e2" name="Registrering" isAbstract="false" isLeaf="false" isActiveClass="false">
-        <elementDefinition Id="0f348899-5461-4108-86cc-71065c039d4b" />
-        <ownedAttributesInternal>
-          <property Id="e02b8b1b-45e0-4459-b476-005c9eff43b4" name="Barn" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
-            <elementDefinition Id="edb5bbda-ba56-442c-8011-134ccabcaa3e" />
-            <type_NamedElement>
-              <referencedTypeMoniker Id="6f20eeb8-153a-4324-8720-25578b8f5551" LastKnownName="String" />
-            </type_NamedElement>
-          </property>
-        </ownedAttributesInternal>
-        <ownedOperationsInternal>
-          <operation Id="5cc72d43-d606-4027-b009-73e446aa8be2" name="RegistreringMethod" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
-            <elementDefinition Id="eb4bc636-03cc-44c4-9b23-298a11f61a9d" />
-          </operation>
-          <operation Id="c481a808-1d9a-4dc2-b613-3c9b4343e087" name="CreateBarn" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
-            <elementDefinition Id="78d89983-0059-45cb-ad3c-924fbcfe13b8" />
-          </operation>
-        </ownedOperationsInternal>
-      </class>
-    </logicalClassDesignerModelHasTypes>
-    <logicalClassDesignerModelHasTypes>
-      <class Id="6f098783-12f6-4099-9d3c-329764bc1fce" name="VaccinePlan" isAbstract="false" isLeaf="false" isActiveClass="false">
-        <elementDefinition Id="6c0c97c3-2f11-4a3e-8b10-9f1ecd5a1778" />
-        <targetEnds>
-          <association Id="d7960dfa-b249-4d53-9143-0bf23b1dac1c" isDerived="false" sourceEndRoleName="VaccinePlan" targetEndRoleName="Bruger/Account" isLeaf="false" isAbstract="false">
-            <classMoniker Id="51baf7e3-e5bf-491e-afae-9e07da9e2fa4" LastKnownName="Bruger/Account" />
-            <relationshipOwnedElementsInternal>
-              <associationHasOwnedEnds>
-                <memberEnd Id="91165238-d4a8-42f5-9a16-0163530e55bc" name="VaccinePlan" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
-                  <lowerValueInternal>
-                    <literalString Id="6ad69068-c412-4267-8d53-0426aedea03d" name="Lower" value="1">
-                      <elementDefinition Id="2ea09648-31e6-4dc5-a67b-79253b1cb775" />
-                    </literalString>
-                  </lowerValueInternal>
-                  <upperValueInternal>
-                    <literalString Id="eb85b23e-5c0a-4f1a-8103-0c8c3108c387" name="Upper" value=".*">
-                      <elementDefinition Id="5ae103ec-4bfb-4072-a700-a1e9c896c7dd" />
-                    </literalString>
-                  </upperValueInternal>
-                  <elementDefinition Id="8b5554de-bdd1-4bdd-bbad-e2ec16f33768" />
-                </memberEnd>
-              </associationHasOwnedEnds>
-              <associationHasOwnedEnds>
-                <memberEnd Id="c3348098-5678-4074-a3a4-4521459728a9" name="Bruger/Account" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
-                  <elementDefinition Id="216fc28f-91b9-4198-98b2-8a60d6c34e69" />
-                </memberEnd>
-              </associationHasOwnedEnds>
-            </relationshipOwnedElementsInternal>
-            <elementDefinition Id="b715ade5-89c6-4720-ab5b-bb4415286b69" />
-          </association>
-        </targetEnds>
-        <ownedAttributesInternal>
-          <property Id="2675d1bd-591e-47df-a882-21b7b150238a" name="Dato" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
-            <elementDefinition Id="ff7bddee-1149-4391-a9f9-ed91226cd5b3" />
-            <type_NamedElement>
-              <referencedTypeMoniker Id="994322c2-8b5a-40ff-bdda-01744662fc90" LastKnownName="DateTime" />
-            </type_NamedElement>
-          </property>
-          <property Id="799a633e-87a1-4180-ba4c-aa1d1cf4cf79" name="Vaccine" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
-            <elementDefinition Id="5130aff5-4d90-474e-a30c-fc8f86e40445" />
-            <type_NamedElement>
-              <referencedTypeMoniker Id="6f20eeb8-153a-4324-8720-25578b8f5551" LastKnownName="String" />
-            </type_NamedElement>
-          </property>
-        </ownedAttributesInternal>
-        <ownedOperationsInternal>
-          <operation Id="26c2d039-eb0a-4c9d-9eda-3a76974251a0" name="VaccineplanMethod" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
-            <elementDefinition Id="da7cd8e3-4dce-4060-8ca9-306c618eb5df" />
-          </operation>
-          <operation Id="91375c47-7b12-47f6-b30f-6fd555048464" name="GetVaccineplan" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
-            <elementDefinition Id="486c51ae-6482-4299-85fe-858ff0449dc4" />
-          </operation>
-        </ownedOperationsInternal>
-      </class>
-    </logicalClassDesignerModelHasTypes>
-    <logicalClassDesignerModelHasTypes>
-      <class Id="765dbb08-8355-4a4b-b2af-506d1cb9d44f" name="Kalender" isAbstract="false" isLeaf="false" isActiveClass="false">
-        <elementDefinition Id="319b0e2b-255b-434e-ba79-7899be67e4de" />
-        <targetEnds>
-          <association Id="c0475fb4-dd9e-4615-b5dc-05cf7a612dcc" isDerived="false" sourceEndRoleName="Kalender" targetEndRoleName="VaccinePlan" isLeaf="false" isAbstract="false">
-            <classMoniker Id="6f098783-12f6-4099-9d3c-329764bc1fce" LastKnownName="VaccinePlan" />
-            <relationshipOwnedElementsInternal>
-              <associationHasOwnedEnds>
-                <memberEnd Id="523c823b-5fe7-4f56-aea0-14077453beb8" name="Kalender" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
-                  <elementDefinition Id="41fd3cd9-5e57-4d8d-8768-c1842d44f758" />
-                </memberEnd>
-              </associationHasOwnedEnds>
-              <associationHasOwnedEnds>
-                <memberEnd Id="ae697d80-69d9-4c0d-ba98-4922517f3a5e" name="VaccinePlan" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
-                  <lowerValueInternal>
-                    <literalString Id="6f6baa94-a886-488d-9a8d-5ee1be0e20a8" name="Lower" value="1">
-                      <elementDefinition Id="e38aee85-03d9-4609-af1a-158e06c9bcc4" />
-                    </literalString>
-                  </lowerValueInternal>
-                  <upperValueInternal>
-                    <literalString Id="c6287f80-a3d2-406c-99fa-6c18461b004c" name="Upper" value=".*">
-                      <elementDefinition Id="8233a865-3191-4163-8260-c2b60e3bcd8c" />
-                    </literalString>
-                  </upperValueInternal>
-                  <elementDefinition Id="6dc7c355-026f-428c-97a6-7666076686aa" />
-                </memberEnd>
-              </associationHasOwnedEnds>
-            </relationshipOwnedElementsInternal>
-            <elementDefinition Id="4746c459-32fb-4544-838c-d26d6d9de94e" />
-          </association>
-        </targetEnds>
-        <ownedAttributesInternal>
-          <property Id="6468f057-b22f-4ad7-a2e9-aed7f62adaff" name="Date" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
-            <elementDefinition Id="feb9066a-bb30-4b43-a3e1-777fee5ee023" />
-            <type_NamedElement>
-              <referencedTypeMoniker Id="994322c2-8b5a-40ff-bdda-01744662fc90" LastKnownName="DateTime" />
-            </type_NamedElement>
-          </property>
-          <property Id="9af2f244-a391-4776-854b-274e39e76bf8" name="Time" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
-            <elementDefinition Id="b64c6051-218c-4978-a1e9-52dddda9677b" />
-            <type_NamedElement>
-              <referencedTypeMoniker Id="994322c2-8b5a-40ff-bdda-01744662fc90" LastKnownName="DateTime" />
-            </type_NamedElement>
-          </property>
-        </ownedAttributesInternal>
-        <ownedOperationsInternal>
-          <operation Id="a3b20aa2-8010-4744-af72-f92afe51f21c" name="KalenderMethod" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
-            <elementDefinition Id="e3ec15ce-1f26-458b-89dd-7725638f7b4f" />
-          </operation>
-          <operation Id="86b73b71-2ead-41a5-a56f-242a2c7008d1" name="GetDate" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
-            <elementDefinition Id="fdf2dc5e-a6ce-45a0-992b-0ad48bfc3e38" />
-          </operation>
-        </ownedOperationsInternal>
-      </class>
-    </logicalClassDesignerModelHasTypes>
     <packageHasNamedElement>
       <referencedType Id="6f20eeb8-153a-4324-8720-25578b8f5551" name="String" isAbstract="false" isLeaf="false" cachedFullName="String">
         <elementDefinition Id="59259974-6d55-42c6-b7bd-763d77ac8ef9" />
@@ -232,21 +21,404 @@
         <elementDefinition Id="59259974-6d55-42c6-b7bd-763d77ac8ef9" />
       </referencedType>
     </packageHasNamedElement>
-    <logicalClassDesignerModelHasTypes>
-      <class Id="b5d9e0f7-d395-48d6-aead-2111cc9fdee5" name="PersistencyService" isAbstract="false" isLeaf="false" isActiveClass="false">
-        <elementDefinition Id="367422be-1db9-4d25-933a-2627aadd9dde" />
-      </class>
-    </logicalClassDesignerModelHasTypes>
-    <logicalClassDesignerModelHasTypes>
-      <class Id="17193acc-4929-4180-85d6-74c51a8c5a53" name="Handler" isAbstract="false" isLeaf="false" isActiveClass="false">
-        <elementDefinition Id="ff312495-863a-4b2c-93b4-ff61504a2cd9" />
-      </class>
-    </logicalClassDesignerModelHasTypes>
-    <logicalClassDesignerModelHasTypes>
-      <class Id="8b8ab19d-0fdf-4cfe-9c57-b755939348d9" name="RelayCommand" isAbstract="false" isLeaf="false" isActiveClass="false">
-        <elementDefinition Id="9f7400bd-3258-4f39-9211-93a62c8204c9" />
-      </class>
-    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasPackages>
+      <package Id="cb680dbf-0b30-4757-9ae8-e5e1484b61f5" name="View">
+        <elementDefinition Id="af270dbf-75d5-45e4-96c6-caa349d578c1" />
+        <packagedElements>
+          <packageHasNamedElement>
+            <class Id="5312e527-23af-4571-9b92-d479f0842005" name="MainPage" isAbstract="false" isLeaf="false" isActiveClass="false">
+              <elementDefinition Id="f5285c1d-a50f-4bbb-a277-fb47794f0059" />
+              <suppliersInternal>
+                <dependency Id="c95219f9-6f6c-42cc-80fa-275806940a8b">
+                  <classMoniker Id="26c81053-0d10-42ce-acbc-4772692f149f" LastKnownName="VaccineViewModel" />
+                  <elementDefinition Id="8c41d8f4-5699-4458-8c80-6781e7df5f92" />
+                </dependency>
+              </suppliersInternal>
+            </class>
+          </packageHasNamedElement>
+          <packageHasNamedElement>
+            <class Id="b9bf1f40-2a7f-4326-871f-2e221b613d11" name="Bruger" isAbstract="false" isLeaf="false" isActiveClass="false">
+              <elementDefinition Id="a92e183b-52d0-4015-a52a-0c363a8886b0" />
+              <suppliersInternal>
+                <dependency Id="6778812d-8289-4a32-ad24-ca01f23fe3c4">
+                  <classMoniker Id="26c81053-0d10-42ce-acbc-4772692f149f" LastKnownName="VaccineViewModel" />
+                  <elementDefinition Id="c2a134db-1cd2-4a20-8157-c429acc7b31d" />
+                </dependency>
+              </suppliersInternal>
+            </class>
+          </packageHasNamedElement>
+          <packageHasNamedElement>
+            <class Id="32ef0c20-e7cf-4225-8f4d-3de21a00f8c3" name="Kalender" isAbstract="false" isLeaf="false" isActiveClass="false">
+              <elementDefinition Id="c6566260-787b-450a-8e27-234e94696b09" />
+              <suppliersInternal>
+                <dependency Id="15d89d0c-1001-4e50-ab18-f431195298ea">
+                  <classMoniker Id="26c81053-0d10-42ce-acbc-4772692f149f" LastKnownName="VaccineViewModel" />
+                  <elementDefinition Id="b4a27d55-397d-497a-8d2c-3ed9edb5f998" />
+                </dependency>
+              </suppliersInternal>
+            </class>
+          </packageHasNamedElement>
+          <packageHasNamedElement>
+            <class Id="93c1c5b4-5c7f-4bbc-96a4-951fac2e96f8" name="OpretVacc" isAbstract="false" isLeaf="false" isActiveClass="false">
+              <elementDefinition Id="830b7d43-bf1c-4a50-b442-7cd1c59c246b" />
+              <suppliersInternal>
+                <dependency Id="23146bda-3a69-4493-b59d-94edcc6d445b">
+                  <classMoniker Id="26c81053-0d10-42ce-acbc-4772692f149f" LastKnownName="VaccineViewModel" />
+                  <elementDefinition Id="666af427-abbf-4bd9-85c6-cf89801c4db4" />
+                </dependency>
+              </suppliersInternal>
+            </class>
+          </packageHasNamedElement>
+          <packageHasNamedElement>
+            <class Id="d5812c75-4ed3-419f-973b-992c8b58f123" name="Påmindelse" isAbstract="false" isLeaf="false" isActiveClass="false">
+              <elementDefinition Id="e4886dff-4dfd-4ee9-bbba-0c1f769b9c2f" />
+              <suppliersInternal>
+                <dependency Id="481e9c20-1309-48ab-bdab-154590aa66a8">
+                  <classMoniker Id="26c81053-0d10-42ce-acbc-4772692f149f" LastKnownName="VaccineViewModel" />
+                  <elementDefinition Id="26567f4d-c413-4493-8668-a2a364d7f919" />
+                </dependency>
+              </suppliersInternal>
+            </class>
+          </packageHasNamedElement>
+          <packageHasNamedElement>
+            <class Id="cd36ef34-fa16-4638-adfb-ecd208dac29c" name="Register" isAbstract="false" isLeaf="false" isActiveClass="false">
+              <elementDefinition Id="61794b89-a2e2-4bd3-8589-20d608b6280f" />
+              <suppliersInternal>
+                <dependency Id="dea77e8b-43ba-423e-862f-1e2e10aedfe8">
+                  <classMoniker Id="26c81053-0d10-42ce-acbc-4772692f149f" LastKnownName="VaccineViewModel" />
+                  <elementDefinition Id="7daacae3-12d9-46c0-8f39-0d9893c73e34" />
+                </dependency>
+              </suppliersInternal>
+            </class>
+          </packageHasNamedElement>
+        </packagedElements>
+      </package>
+    </logicalClassDesignerModelHasPackages>
+    <logicalClassDesignerModelHasPackages>
+      <package Id="a22c8387-37b8-47bd-a982-38d5fa9f4ff7" name="ViewModel">
+        <elementDefinition Id="b62d2c61-1c71-4388-acf2-256d2d24bc31" />
+        <packagedElements>
+          <packageHasNamedElement>
+            <class Id="26c81053-0d10-42ce-acbc-4772692f149f" name="VaccineViewModel" isAbstract="false" isLeaf="false" isActiveClass="false">
+              <elementDefinition Id="f3a24586-90bd-47d6-9209-223a0e483e87" />
+              <ownedAttributesInternal>
+                <property Id="0407990b-dd96-470c-9fbc-526c62e025b6" name="ICommand CreateBarn" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="3ff2a133-c240-4385-b549-4e3b80645b87" />
+                </property>
+                <property Id="4cfc6447-732f-4b87-afd1-12ff93d38045" name="ICommand DeleteBarn" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="74508084-502a-457b-8a3f-d0c8f0fc98f4" />
+                </property>
+              </ownedAttributesInternal>
+            </class>
+          </packageHasNamedElement>
+        </packagedElements>
+      </package>
+    </logicalClassDesignerModelHasPackages>
+    <logicalClassDesignerModelHasPackages>
+      <package Id="7681b025-ea35-444f-8c3d-a19b99f3fa35" name="Handler">
+        <elementDefinition Id="49a2dbd0-1086-459a-9db6-0b44819c05a1" />
+        <packagedElements>
+          <packageHasNamedElement>
+            <class Id="17193acc-4929-4180-85d6-74c51a8c5a53" name="BarnHandler" isAbstract="false" isLeaf="false" isActiveClass="false">
+              <elementDefinition Id="ff312495-863a-4b2c-93b4-ff61504a2cd9" />
+              <targetEnds>
+                <association Id="5d4fd6ba-3dd1-4911-bbdc-70aac5a1c37c" isDerived="false" sourceEndRoleName="BarnHandler" targetEndRoleName="VaccineViewModel" isLeaf="false" isAbstract="false">
+                  <classMoniker Id="26c81053-0d10-42ce-acbc-4772692f149f" LastKnownName="VaccineViewModel" />
+                  <relationshipOwnedElementsInternal>
+                    <associationHasOwnedEnds>
+                      <memberEnd Id="50c1291d-962f-4c5d-9c25-cab5143fcb38" name="BarnHandler" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                        <elementDefinition Id="46e281d0-d8aa-49b4-b1cb-dfcaf067aca6" />
+                      </memberEnd>
+                    </associationHasOwnedEnds>
+                    <associationHasOwnedEnds>
+                      <memberEnd Id="d48e916c-a4df-43d9-9036-8237e1139172" name="VaccineViewModel" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                        <elementDefinition Id="8e347c5d-9ad7-4233-bf91-0c459b691d0c" />
+                      </memberEnd>
+                    </associationHasOwnedEnds>
+                  </relationshipOwnedElementsInternal>
+                  <elementDefinition Id="3f2bd4c9-ef60-4727-b8aa-cd6f77e0ec02" />
+                </association>
+              </targetEnds>
+              <ownedOperationsInternal>
+                <operation Id="9abdee29-30ed-4cf2-ab1c-8c1e7948aee3" name="CreateBarn" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+                  <elementDefinition Id="56cf6df1-73af-46a4-af22-72f3769f9170" />
+                </operation>
+                <operation Id="a931d2b1-6586-48f4-a61d-7c5341a4d546" name="DeleteBarn" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+                  <elementDefinition Id="cf9a8bd0-3cd5-4c81-9a25-995c7cfbd0d2" />
+                </operation>
+              </ownedOperationsInternal>
+            </class>
+          </packageHasNamedElement>
+        </packagedElements>
+      </package>
+    </logicalClassDesignerModelHasPackages>
+    <logicalClassDesignerModelHasPackages>
+      <package Id="4fefbf55-3600-42a7-8468-4d6b21e6a7d4" name="Common">
+        <elementDefinition Id="7fc6e3eb-90bc-4105-a3c0-e266a8ec30c6" />
+        <packagedElements>
+          <packageHasNamedElement>
+            <class Id="8b8ab19d-0fdf-4cfe-9c57-b755939348d9" name="RelayCommand" isAbstract="false" isLeaf="false" isActiveClass="false">
+              <elementDefinition Id="9f7400bd-3258-4f39-9211-93a62c8204c9" />
+              <ownedOperationsInternal>
+                <operation Id="9c064e0c-8c30-4474-b842-9c2b1f20ebf7" name="bool CanExecute" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+                  <elementDefinition Id="edf72c61-50e7-4c10-8f3a-1f2bd0c6ff87" />
+                  <ownedParameters>
+                    <operationHasOwnedParameters>
+                      <parameter Id="843dbb92-ba97-41d7-834a-8ac503d89146" name="object parameters" direction="In" isUnique="false">
+                        <elementDefinition Id="4ffd5a22-50d0-412e-9a04-32f36c6e7846" />
+                      </parameter>
+                    </operationHasOwnedParameters>
+                  </ownedParameters>
+                </operation>
+                <operation Id="d9822023-acea-4175-8837-be1d8d27c9fd" name="Execute" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+                  <elementDefinition Id="7e176b0f-64a8-41ad-9a24-aef3ca9e3ed1" />
+                  <ownedParameters>
+                    <operationHasOwnedParameters>
+                      <parameter Id="bc8c048a-b509-40a1-ad3c-ad9a46d793f1" name="object parameters" direction="In" isUnique="false">
+                        <elementDefinition Id="db577884-30ac-4199-b2f5-89d41b5b7925" />
+                      </parameter>
+                    </operationHasOwnedParameters>
+                  </ownedParameters>
+                </operation>
+                <operation Id="d485a198-55bc-4e58-a6c5-a2b68e8feb4c" name="RaiseCanExecuteChanged" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+                  <elementDefinition Id="53a667d6-ebd1-48a2-803a-4dbbd3cbb012" />
+                </operation>
+              </ownedOperationsInternal>
+            </class>
+          </packageHasNamedElement>
+        </packagedElements>
+      </package>
+    </logicalClassDesignerModelHasPackages>
+    <logicalClassDesignerModelHasPackages>
+      <package Id="bb48a1b3-1983-4eed-a3d9-23ebc6592161" name="Model">
+        <elementDefinition Id="259be3f5-3b13-4f02-bf67-afc7893f19f9" />
+        <packagedElements>
+          <packageHasNamedElement>
+            <class Id="982e89c5-4bd1-4d53-97d5-9fa7fb98a5e2" name="Registrering" isAbstract="false" isLeaf="false" isActiveClass="false">
+              <elementDefinition Id="0f348899-5461-4108-86cc-71065c039d4b" />
+              <ownedAttributesInternal>
+                <property Id="e02b8b1b-45e0-4459-b476-005c9eff43b4" name="Barn" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="edb5bbda-ba56-442c-8011-134ccabcaa3e" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="6f20eeb8-153a-4324-8720-25578b8f5551" LastKnownName="String" />
+                  </type_NamedElement>
+                </property>
+              </ownedAttributesInternal>
+              <ownedOperationsInternal>
+                <operation Id="5cc72d43-d606-4027-b009-73e446aa8be2" name="RegistreringMethod" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+                  <elementDefinition Id="eb4bc636-03cc-44c4-9b23-298a11f61a9d" />
+                </operation>
+                <operation Id="c481a808-1d9a-4dc2-b613-3c9b4343e087" name="CreateBarn" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+                  <elementDefinition Id="78d89983-0059-45cb-ad3c-924fbcfe13b8" />
+                </operation>
+              </ownedOperationsInternal>
+            </class>
+          </packageHasNamedElement>
+          <packageHasNamedElement>
+            <class Id="51baf7e3-e5bf-491e-afae-9e07da9e2fa4" name="Bruger/Account" isAbstract="false" isLeaf="false" isActiveClass="false">
+              <elementDefinition Id="7878e42b-ae6e-468f-a4af-b0b8411b4cce" />
+              <targetEnds>
+                <association Id="7f238598-0d09-42ce-be5b-1d6ad81fa687" isDerived="false" sourceEndRoleName="Bruger/Account" targetEndRoleName="Registrering" isLeaf="false" isAbstract="false">
+                  <classMoniker Id="982e89c5-4bd1-4d53-97d5-9fa7fb98a5e2" LastKnownName="Registrering" />
+                  <relationshipOwnedElementsInternal>
+                    <associationHasOwnedEnds>
+                      <memberEnd Id="7c8bbb9c-edd2-4c3c-88f7-c1117fe3d64f" name="Bruger/Account" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Composite" isComposite="false" isNavigableOwned="false">
+                        <elementDefinition Id="53168fb7-aada-48e4-b3a7-ed6e28fd4cf4" />
+                      </memberEnd>
+                    </associationHasOwnedEnds>
+                    <associationHasOwnedEnds>
+                      <memberEnd Id="7747c177-39b1-4b14-8095-ff8d319406ac" name="Registrering" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="true">
+                        <lowerValueInternal>
+                          <literalString Id="5f2af9b2-499a-4f50-80f7-42861a19b698" name="Lower" value="1">
+                            <elementDefinition Id="b2816554-962e-4d83-88c6-2205f53b97c6" />
+                          </literalString>
+                        </lowerValueInternal>
+                        <upperValueInternal>
+                          <literalString Id="b458be02-6250-4521-8a3d-49377ce7072f" name="Upper" value=".*">
+                            <elementDefinition Id="2b0e846e-638f-4f79-9b58-cebafbecb832" />
+                          </literalString>
+                        </upperValueInternal>
+                        <elementDefinition Id="69d453fe-96d5-4cdc-8ee5-8fb7f4390f2c" />
+                      </memberEnd>
+                    </associationHasOwnedEnds>
+                  </relationshipOwnedElementsInternal>
+                  <elementDefinition Id="85560a09-0e82-43c5-96cd-90198d627e88" />
+                </association>
+                <association Id="27369b44-76ed-401e-9b84-64021d946443" isDerived="false" sourceEndRoleName="Bruger/Account" targetEndRoleName="Kalender" isLeaf="false" isAbstract="false">
+                  <classMoniker Id="765dbb08-8355-4a4b-b2af-506d1cb9d44f" LastKnownName="Kalender" />
+                  <relationshipOwnedElementsInternal>
+                    <associationHasOwnedEnds>
+                      <memberEnd Id="0bf44086-ad0e-4abe-83bc-8f25794cc493" name="Bruger/Account" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                        <elementDefinition Id="d03b4fae-c051-42a4-be15-f729b346d789" />
+                      </memberEnd>
+                    </associationHasOwnedEnds>
+                    <associationHasOwnedEnds>
+                      <memberEnd Id="e83d92b8-3b6d-4c9f-b3d0-b853abc6293d" name="Kalender" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                        <elementDefinition Id="04688502-009d-4965-8778-07712b9a2a89" />
+                      </memberEnd>
+                    </associationHasOwnedEnds>
+                  </relationshipOwnedElementsInternal>
+                  <elementDefinition Id="3780cedd-9958-4daa-a2a8-02ea36a98966" />
+                </association>
+              </targetEnds>
+              <ownedAttributesInternal>
+                <property Id="9add4879-da8c-4d44-823f-b554aeb7ea17" name="Navn" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="f23387fd-f8a5-4dc9-8603-5c87ab9f4f0a" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="6f20eeb8-153a-4324-8720-25578b8f5551" LastKnownName="String" />
+                  </type_NamedElement>
+                </property>
+                <property Id="3f47a107-73a8-4dfd-9524-b1cfb3c45907" name="Cpr-Nummer" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="bff46de7-b835-49de-9b50-35f85b28db73" />
+                </property>
+                <property Id="ca05ede1-c794-44c8-985f-bcbfd5640002" name="Underbruger" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="be4be501-057f-4494-b6a1-a81dd6a2a94c" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="e4d0faa6-9530-4bba-8682-66feb7a3a8dc" LastKnownName="string" />
+                  </type_NamedElement>
+                </property>
+                <property Id="0287f803-f801-41e1-b027-876614a8d476" name="Email" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="a689827f-ebaa-4f59-9a19-c82a8966213a" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="bc873eb0-5c64-4291-bd0a-1e38967e4450" LastKnownName="String" />
+                  </type_NamedElement>
+                </property>
+              </ownedAttributesInternal>
+              <ownedOperationsInternal>
+                <operation Id="eaccf70d-c7c5-45c2-b94c-8132410188f6" name="BrugerMethod" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+                  <elementDefinition Id="f94ef064-c150-43f9-b7bd-462187f11bf5" />
+                </operation>
+                <operation Id="1f7a3a5a-3bdd-43a5-8e66-62bbfa3d8029" name="GetRegistrering" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+                  <elementDefinition Id="73dc30cd-5047-48ca-a014-eb006b41ba9a" />
+                </operation>
+              </ownedOperationsInternal>
+            </class>
+          </packageHasNamedElement>
+          <packageHasNamedElement>
+            <class Id="765dbb08-8355-4a4b-b2af-506d1cb9d44f" name="Kalender" isAbstract="false" isLeaf="false" isActiveClass="false">
+              <elementDefinition Id="319b0e2b-255b-434e-ba79-7899be67e4de" />
+              <targetEnds>
+                <association Id="c0475fb4-dd9e-4615-b5dc-05cf7a612dcc" isDerived="false" sourceEndRoleName="Kalender" targetEndRoleName="VaccinePlan" isLeaf="false" isAbstract="false">
+                  <classMoniker Id="6f098783-12f6-4099-9d3c-329764bc1fce" LastKnownName="VaccinePlan" />
+                  <relationshipOwnedElementsInternal>
+                    <associationHasOwnedEnds>
+                      <memberEnd Id="523c823b-5fe7-4f56-aea0-14077453beb8" name="Kalender" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                        <elementDefinition Id="41fd3cd9-5e57-4d8d-8768-c1842d44f758" />
+                      </memberEnd>
+                    </associationHasOwnedEnds>
+                    <associationHasOwnedEnds>
+                      <memberEnd Id="ae697d80-69d9-4c0d-ba98-4922517f3a5e" name="VaccinePlan" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                        <lowerValueInternal>
+                          <literalString Id="6f6baa94-a886-488d-9a8d-5ee1be0e20a8" name="Lower" value="1">
+                            <elementDefinition Id="e38aee85-03d9-4609-af1a-158e06c9bcc4" />
+                          </literalString>
+                        </lowerValueInternal>
+                        <upperValueInternal>
+                          <literalString Id="c6287f80-a3d2-406c-99fa-6c18461b004c" name="Upper" value=".*">
+                            <elementDefinition Id="8233a865-3191-4163-8260-c2b60e3bcd8c" />
+                          </literalString>
+                        </upperValueInternal>
+                        <elementDefinition Id="6dc7c355-026f-428c-97a6-7666076686aa" />
+                      </memberEnd>
+                    </associationHasOwnedEnds>
+                  </relationshipOwnedElementsInternal>
+                  <elementDefinition Id="4746c459-32fb-4544-838c-d26d6d9de94e" />
+                </association>
+              </targetEnds>
+              <ownedAttributesInternal>
+                <property Id="6468f057-b22f-4ad7-a2e9-aed7f62adaff" name="Date" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="feb9066a-bb30-4b43-a3e1-777fee5ee023" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="994322c2-8b5a-40ff-bdda-01744662fc90" LastKnownName="DateTime" />
+                  </type_NamedElement>
+                </property>
+                <property Id="9af2f244-a391-4776-854b-274e39e76bf8" name="Time" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="b64c6051-218c-4978-a1e9-52dddda9677b" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="994322c2-8b5a-40ff-bdda-01744662fc90" LastKnownName="DateTime" />
+                  </type_NamedElement>
+                </property>
+              </ownedAttributesInternal>
+              <ownedOperationsInternal>
+                <operation Id="a3b20aa2-8010-4744-af72-f92afe51f21c" name="KalenderMethod" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+                  <elementDefinition Id="e3ec15ce-1f26-458b-89dd-7725638f7b4f" />
+                </operation>
+                <operation Id="86b73b71-2ead-41a5-a56f-242a2c7008d1" name="GetDate" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+                  <elementDefinition Id="fdf2dc5e-a6ce-45a0-992b-0ad48bfc3e38" />
+                </operation>
+              </ownedOperationsInternal>
+            </class>
+          </packageHasNamedElement>
+          <packageHasNamedElement>
+            <class Id="6f098783-12f6-4099-9d3c-329764bc1fce" name="VaccinePlan" isAbstract="false" isLeaf="false" isActiveClass="false">
+              <elementDefinition Id="6c0c97c3-2f11-4a3e-8b10-9f1ecd5a1778" />
+              <targetEnds>
+                <association Id="d7960dfa-b249-4d53-9143-0bf23b1dac1c" isDerived="false" sourceEndRoleName="VaccinePlan" targetEndRoleName="Bruger/Account" isLeaf="false" isAbstract="false">
+                  <classMoniker Id="51baf7e3-e5bf-491e-afae-9e07da9e2fa4" LastKnownName="Bruger/Account" />
+                  <relationshipOwnedElementsInternal>
+                    <associationHasOwnedEnds>
+                      <memberEnd Id="91165238-d4a8-42f5-9a16-0163530e55bc" name="VaccinePlan" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                        <lowerValueInternal>
+                          <literalString Id="6ad69068-c412-4267-8d53-0426aedea03d" name="Lower" value="1">
+                            <elementDefinition Id="2ea09648-31e6-4dc5-a67b-79253b1cb775" />
+                          </literalString>
+                        </lowerValueInternal>
+                        <upperValueInternal>
+                          <literalString Id="eb85b23e-5c0a-4f1a-8103-0c8c3108c387" name="Upper" value=".*">
+                            <elementDefinition Id="5ae103ec-4bfb-4072-a700-a1e9c896c7dd" />
+                          </literalString>
+                        </upperValueInternal>
+                        <elementDefinition Id="8b5554de-bdd1-4bdd-bbad-e2ec16f33768" />
+                      </memberEnd>
+                    </associationHasOwnedEnds>
+                    <associationHasOwnedEnds>
+                      <memberEnd Id="c3348098-5678-4074-a3a4-4521459728a9" name="Bruger/Account" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                        <elementDefinition Id="216fc28f-91b9-4198-98b2-8a60d6c34e69" />
+                      </memberEnd>
+                    </associationHasOwnedEnds>
+                  </relationshipOwnedElementsInternal>
+                  <elementDefinition Id="b715ade5-89c6-4720-ab5b-bb4415286b69" />
+                </association>
+              </targetEnds>
+              <ownedAttributesInternal>
+                <property Id="2675d1bd-591e-47df-a882-21b7b150238a" name="Dato" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="ff7bddee-1149-4391-a9f9-ed91226cd5b3" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="994322c2-8b5a-40ff-bdda-01744662fc90" LastKnownName="DateTime" />
+                  </type_NamedElement>
+                </property>
+                <property Id="799a633e-87a1-4180-ba4c-aa1d1cf4cf79" name="Vaccine" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="5130aff5-4d90-474e-a30c-fc8f86e40445" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="6f20eeb8-153a-4324-8720-25578b8f5551" LastKnownName="String" />
+                  </type_NamedElement>
+                </property>
+              </ownedAttributesInternal>
+              <ownedOperationsInternal>
+                <operation Id="26c2d039-eb0a-4c9d-9eda-3a76974251a0" name="VaccineplanMethod" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+                  <elementDefinition Id="da7cd8e3-4dce-4060-8ca9-306c618eb5df" />
+                </operation>
+                <operation Id="91375c47-7b12-47f6-b30f-6fd555048464" name="GetVaccineplan" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+                  <elementDefinition Id="486c51ae-6482-4299-85fe-858ff0449dc4" />
+                </operation>
+              </ownedOperationsInternal>
+            </class>
+          </packageHasNamedElement>
+        </packagedElements>
+      </package>
+    </logicalClassDesignerModelHasPackages>
+    <logicalClassDesignerModelHasPackages>
+      <package Id="119beed1-d48c-434d-9a39-0ebd19474219" name="PersistencyService">
+        <elementDefinition Id="711b1886-9a16-4920-a39b-28a8c69cebc0" />
+        <packagedElements>
+          <packageHasNamedElement>
+            <class Id="b5d9e0f7-d395-48d6-aead-2111cc9fdee5" name="PersistencyService" isAbstract="false" isLeaf="false" isActiveClass="false">
+              <elementDefinition Id="367422be-1db9-4d25-933a-2627aadd9dde" />
+            </class>
+          </packageHasNamedElement>
+        </packagedElements>
+      </package>
+    </logicalClassDesignerModelHasPackages>
   </packagedElements>
   <package Id="6396c3ad-35ae-4fa1-b877-b83302d7edb6" name="ModelingProject1">
     <elementDefinition Id="aa460366-cd12-45f6-aca3-1c7fea735581" />
