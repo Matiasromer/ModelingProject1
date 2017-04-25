@@ -11,6 +11,22 @@
         isAbstract="false"
         isLeaf="false"
         isActiveClass="false">
+        <suppliersInternal>
+          <dependency
+            Id="4596cb56-dc05-456e-a93b-8c9352752e3d">
+            <classMoniker
+              Id="ff312495-863a-4b2c-93b4-ff61504a2cd9"
+              LastKnownName="BrugerHandler"
+              LastKnownLocation="Package_1128.uml" />
+          </dependency>
+          <dependency
+            Id="090fec45-8ba1-4058-aeb0-dab05ac0ae77">
+            <classMoniker
+              Id="2ca6e350-5722-4554-8b6a-518c837a74ab"
+              LastKnownName="VaccineHandler"
+              LastKnownLocation="Package_1128.uml" />
+          </dependency>
+        </suppliersInternal>
         <ownedOperationsInternal>
           <operation
             Id="edf72c61-50e7-4c10-8f3a-1f2bd0c6ff87"

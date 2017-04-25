@@ -7,7 +7,7 @@
     <packageHasNamedElement>
       <class
         Id="ff312495-863a-4b2c-93b4-ff61504a2cd9"
-        name="BarnHandler"
+        name="BrugerHandler"
         isAbstract="false"
         isLeaf="false"
         isActiveClass="false">
@@ -64,6 +64,41 @@
           <operation
             Id="cf9a8bd0-3cd5-4c81-9a25-995c7cfbd0d2"
             name="DeleteBarn"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="2ca6e350-5722-4554-8b6a-518c837a74ab"
+        name="VaccineHandler"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <ownedOperationsInternal>
+          <operation
+            Id="dd38c69c-c4b4-4abf-b780-38798aa9b8fd"
+            name="RegistrerVaccine"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="5b88929e-79a7-4829-a776-168530a5d78e"
+            name="GetKalender"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="c6bbde52-b1e5-4344-8033-fac62b2b2334"
+            name="GetVacciner"
             isLeaf="false"
             isStatic="false"
             isAbstract="false"
