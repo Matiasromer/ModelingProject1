@@ -5,8 +5,8 @@
       <class Id="80c632e1-ae79-4872-b842-4cc9b2f01019" name="Bruger/Account" isAbstract="false" isLeaf="false" isActiveClass="false">
         <elementDefinition Id="81f1ce7d-f332-4448-8dae-f5889166c08f" />
         <targetEnds>
-          <association Id="9571ac05-3663-4616-82e6-1dcf029d45be" isDerived="false" sourceEndRoleName="bruger" targetEndRoleName="registrering" isLeaf="false" isAbstract="false">
-            <classMoniker Id="5982a18d-78e1-4ec7-84ee-e824b2fcaeac" LastKnownName="registrering" />
+          <association Id="9571ac05-3663-4616-82e6-1dcf029d45be" isDerived="false" sourceEndRoleName="bruger" targetEndRoleName="Opret" isLeaf="false" isAbstract="false">
+            <classMoniker Id="5982a18d-78e1-4ec7-84ee-e824b2fcaeac" LastKnownName="Opret" />
             <relationshipOwnedElementsInternal>
               <associationHasOwnedEnds>
                 <memberEnd Id="3d6ebaca-c907-4357-b1aa-e190a5e2304a" name="bruger" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
@@ -14,7 +14,7 @@
                 </memberEnd>
               </associationHasOwnedEnds>
               <associationHasOwnedEnds>
-                <memberEnd Id="de47b292-5fee-4bfa-88b8-eccd3d0869bb" name="registrering" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                <memberEnd Id="de47b292-5fee-4bfa-88b8-eccd3d0869bb" name="Opret" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
                   <lowerValueInternal>
                     <literalString Id="27c6a63c-0dce-4b22-b320-aed4b06da71c" name="Lower" value="1">
                       <elementDefinition Id="dc1415f4-b4e2-4bb7-af7f-d71387fc0c31" />
@@ -65,7 +65,7 @@
       </class>
     </logicalClassDesignerModelHasTypes>
     <logicalClassDesignerModelHasTypes>
-      <class Id="56abc28e-11bb-4789-adc9-444a5b170c41" name="vaccineplan" isAbstract="false" isLeaf="false" isActiveClass="false">
+      <class Id="56abc28e-11bb-4789-adc9-444a5b170c41" name="Vaccinehistorik" isAbstract="false" isLeaf="false" isActiveClass="false">
         <elementDefinition Id="d4b09ffd-24e7-4644-9c31-708add37b8f1" />
         <targetEnds>
           <association Id="1cecdea1-c4a1-4687-88b5-089bce6499a9" isDerived="false" sourceEndRoleName="vaccineplan" targetEndRoleName="Bruger/Account" isLeaf="false" isAbstract="false">
@@ -96,17 +96,20 @@
           </association>
         </targetEnds>
         <ownedAttributesInternal>
-          <property Id="ac000486-77c8-440c-a1aa-2e2e6323fadb" name="vaccine" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+          <property Id="ac000486-77c8-440c-a1aa-2e2e6323fadb" name="VaccineNavn" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
             <elementDefinition Id="280eeed0-1b51-42d9-8635-88639e7a2501" />
           </property>
           <property Id="9deb74c2-5c3c-4f8a-a88d-6ec9fb91409e" name="Dato" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
             <elementDefinition Id="187806b4-cad0-4bb7-bc65-68902af211cd" />
           </property>
+          <property Id="8555a4dc-a94a-4fbf-a6a2-9c406eeada71" name="Vaccineret" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="82d9c819-8802-426f-80c2-8d102b4bb4c8" />
+          </property>
         </ownedAttributesInternal>
       </class>
     </logicalClassDesignerModelHasTypes>
     <logicalClassDesignerModelHasTypes>
-      <class Id="5982a18d-78e1-4ec7-84ee-e824b2fcaeac" name="registrering" isAbstract="false" isLeaf="false" isActiveClass="false">
+      <class Id="5982a18d-78e1-4ec7-84ee-e824b2fcaeac" name="Opret" isAbstract="false" isLeaf="false" isActiveClass="false">
         <elementDefinition Id="df11d900-d6e7-4c5b-b101-c1f7af02c70b" />
         <ownedAttributesInternal>
           <property Id="f340fde4-5c9f-485f-b170-84aa85e07034" name="barn" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
@@ -120,7 +123,7 @@
         <elementDefinition Id="7142b88c-b1cc-441f-ab55-b78e56a5c703" />
         <targetEnds>
           <association Id="d1faad97-b4fc-4e4e-9566-95120dfdb356" isDerived="false" sourceEndRoleName="kalender" targetEndRoleName="vaccineplan" isLeaf="false" isAbstract="false">
-            <classMoniker Id="56abc28e-11bb-4789-adc9-444a5b170c41" LastKnownName="vaccineplan" />
+            <classMoniker Id="56abc28e-11bb-4789-adc9-444a5b170c41" LastKnownName="Vaccinehistorik" />
             <relationshipOwnedElementsInternal>
               <associationHasOwnedEnds>
                 <memberEnd Id="e86d2f65-8e1b-4c0d-b027-8b812e0cc822" name="kalender" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
@@ -150,7 +153,7 @@
           <property Id="e5ee00c9-7a96-474d-8c9e-330dec322902" name="Dato" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
             <elementDefinition Id="2444623e-522f-4ac9-b05c-dd2d57ac9588" />
           </property>
-          <property Id="bfa3de7c-e540-48c7-9d79-94e1bb5ba717" name="Time" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+          <property Id="bfa3de7c-e540-48c7-9d79-94e1bb5ba717" name="VaccineNavn" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
             <elementDefinition Id="198125d9-64c4-4abb-a1a5-cf7b9ed42d00" />
           </property>
         </ownedAttributesInternal>

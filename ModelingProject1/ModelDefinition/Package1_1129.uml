@@ -7,7 +7,7 @@
     <packageHasNamedElement>
       <class
         Id="0f348899-5461-4108-86cc-71065c039d4b"
-        name="Registrering"
+        name="Opret"
         isAbstract="false"
         isLeaf="false"
         isActiveClass="false">
@@ -54,7 +54,7 @@
     <packageHasNamedElement>
       <class
         Id="7878e42b-ae6e-468f-a4af-b0b8411b4cce"
-        name="Bruger/Account"
+        name="Bruger"
         isAbstract="false"
         isLeaf="false"
         isActiveClass="false">
@@ -68,7 +68,7 @@
             isAbstract="false">
             <classMoniker
               Id="0f348899-5461-4108-86cc-71065c039d4b"
-              LastKnownName="Registrering"
+              LastKnownName="Opret"
               LastKnownLocation="Package1_1129.uml" />
             <relationshipOwnedElementsInternal>
               <associationHasOwnedEnds>
@@ -255,7 +255,7 @@
             isAbstract="false">
             <classMoniker
               Id="6c0c97c3-2f11-4a3e-8b10-9f1ecd5a1778"
-              LastKnownName="VaccinePlan"
+              LastKnownName="VaccineHistorik"
               LastKnownLocation="Package1_1129.uml" />
             <relationshipOwnedElementsInternal>
               <associationHasOwnedEnds>
@@ -320,7 +320,7 @@
           </property>
           <property
             Id="b64c6051-218c-4978-a1e9-52dddda9677b"
-            name="Time"
+            name="string"
             isLeaf="false"
             isStatic="false"
             isReadOnly="false"
@@ -331,8 +331,8 @@
             isComposite="false">
             <type_NamedElement>
               <undefinedTypeMoniker
-                Id="81d71432-0ffc-4087-82b3-0b0397b78454"
-                LastKnownName="DateTime"
+                Id="f1690ea3-7765-411e-97c1-e14619496e0d"
+                LastKnownName="VaccineNavn"
                 LastKnownLocation="ModelingProject1.uml" />
             </type_NamedElement>
           </property>
@@ -360,7 +360,7 @@
     <packageHasNamedElement>
       <class
         Id="6c0c97c3-2f11-4a3e-8b10-9f1ecd5a1778"
-        name="VaccinePlan"
+        name="VaccineHistorik"
         isAbstract="false"
         isLeaf="false"
         isActiveClass="false">
@@ -374,7 +374,7 @@
             isAbstract="false">
             <classMoniker
               Id="7878e42b-ae6e-468f-a4af-b0b8411b4cce"
-              LastKnownName="Bruger/Account"
+              LastKnownName="Bruger"
               LastKnownLocation="Package1_1129.uml" />
             <relationshipOwnedElementsInternal>
               <associationHasOwnedEnds>
@@ -455,6 +455,17 @@
                 LastKnownLocation="ModelingProject1.uml" />
             </type_NamedElement>
           </property>
+          <property
+            Id="d3fce0fc-8401-4f81-a33e-1d3c43c2d515"
+            name="double Vaccineret"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
         </ownedAttributesInternal>
         <ownedOperationsInternal>
           <operation

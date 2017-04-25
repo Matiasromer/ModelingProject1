@@ -239,11 +239,11 @@
       </package>
     </logicalClassDesignerModelHasPackages>
     <packageHasNamedElement>
-      <class Id="51baf7e3-e5bf-491e-afae-9e07da9e2fa4" name="Bruger/Account" isAbstract="false" isLeaf="false" isActiveClass="false">
+      <class Id="51baf7e3-e5bf-491e-afae-9e07da9e2fa4" name="Bruger" isAbstract="false" isLeaf="false" isActiveClass="false">
         <elementDefinition Id="7878e42b-ae6e-468f-a4af-b0b8411b4cce" />
         <targetEnds>
           <association Id="7f238598-0d09-42ce-be5b-1d6ad81fa687" isDerived="false" sourceEndRoleName="Bruger/Account" targetEndRoleName="Registrering" isLeaf="false" isAbstract="false">
-            <classMoniker Id="982e89c5-4bd1-4d53-97d5-9fa7fb98a5e2" LastKnownName="Registrering" />
+            <classMoniker Id="982e89c5-4bd1-4d53-97d5-9fa7fb98a5e2" LastKnownName="Opret" />
             <relationshipOwnedElementsInternal>
               <associationHasOwnedEnds>
                 <memberEnd Id="7c8bbb9c-edd2-4c3c-88f7-c1117fe3d64f" name="Bruger/Account" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="Composite" isComposite="false" isNavigableOwned="false">
@@ -319,11 +319,11 @@
       </class>
     </packageHasNamedElement>
     <packageHasNamedElement>
-      <class Id="6f098783-12f6-4099-9d3c-329764bc1fce" name="VaccinePlan" isAbstract="false" isLeaf="false" isActiveClass="false">
+      <class Id="6f098783-12f6-4099-9d3c-329764bc1fce" name="VaccineHistorik" isAbstract="false" isLeaf="false" isActiveClass="false">
         <elementDefinition Id="6c0c97c3-2f11-4a3e-8b10-9f1ecd5a1778" />
         <targetEnds>
           <association Id="d7960dfa-b249-4d53-9143-0bf23b1dac1c" isDerived="false" sourceEndRoleName="VaccinePlan" targetEndRoleName="Bruger/Account" isLeaf="false" isAbstract="false">
-            <classMoniker Id="51baf7e3-e5bf-491e-afae-9e07da9e2fa4" LastKnownName="Bruger/Account" />
+            <classMoniker Id="51baf7e3-e5bf-491e-afae-9e07da9e2fa4" LastKnownName="Bruger" />
             <relationshipOwnedElementsInternal>
               <associationHasOwnedEnds>
                 <memberEnd Id="91165238-d4a8-42f5-9a16-0163530e55bc" name="VaccinePlan" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
@@ -362,6 +362,9 @@
               <referencedTypeMoniker Id="6f20eeb8-153a-4324-8720-25578b8f5551" LastKnownName="String" />
             </type_NamedElement>
           </property>
+          <property Id="3da5acda-9285-4bc7-bb36-4a22444b86fb" name="double Vaccineret" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="d3fce0fc-8401-4f81-a33e-1d3c43c2d515" />
+          </property>
         </ownedAttributesInternal>
         <ownedOperationsInternal>
           <operation Id="26c2d039-eb0a-4c9d-9eda-3a76974251a0" name="VaccineplanMethod" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
@@ -378,7 +381,7 @@
         <elementDefinition Id="319b0e2b-255b-434e-ba79-7899be67e4de" />
         <targetEnds>
           <association Id="c0475fb4-dd9e-4615-b5dc-05cf7a612dcc" isDerived="false" sourceEndRoleName="Kalender" targetEndRoleName="VaccinePlan" isLeaf="false" isAbstract="false">
-            <classMoniker Id="6f098783-12f6-4099-9d3c-329764bc1fce" LastKnownName="VaccinePlan" />
+            <classMoniker Id="6f098783-12f6-4099-9d3c-329764bc1fce" LastKnownName="VaccineHistorik" />
             <relationshipOwnedElementsInternal>
               <associationHasOwnedEnds>
                 <memberEnd Id="523c823b-5fe7-4f56-aea0-14077453beb8" name="Kalender" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
@@ -411,10 +414,10 @@
               <referencedTypeMoniker Id="994322c2-8b5a-40ff-bdda-01744662fc90" LastKnownName="DateTime" />
             </type_NamedElement>
           </property>
-          <property Id="9af2f244-a391-4776-854b-274e39e76bf8" name="Time" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+          <property Id="9af2f244-a391-4776-854b-274e39e76bf8" name="string" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
             <elementDefinition Id="b64c6051-218c-4978-a1e9-52dddda9677b" />
             <type_NamedElement>
-              <referencedTypeMoniker Id="994322c2-8b5a-40ff-bdda-01744662fc90" LastKnownName="DateTime" />
+              <referencedTypeMoniker Id="def77982-66c6-48c8-a44d-7b2821451399" LastKnownName="VaccineNavn" />
             </type_NamedElement>
           </property>
         </ownedAttributesInternal>
@@ -429,7 +432,7 @@
       </class>
     </packageHasNamedElement>
     <packageHasNamedElement>
-      <class Id="982e89c5-4bd1-4d53-97d5-9fa7fb98a5e2" name="Registrering" isAbstract="false" isLeaf="false" isActiveClass="false">
+      <class Id="982e89c5-4bd1-4d53-97d5-9fa7fb98a5e2" name="Opret" isAbstract="false" isLeaf="false" isActiveClass="false">
         <elementDefinition Id="0f348899-5461-4108-86cc-71065c039d4b" />
         <ownedAttributesInternal>
           <property Id="e02b8b1b-45e0-4459-b476-005c9eff43b4" name="Barn" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
@@ -448,6 +451,11 @@
           </operation>
         </ownedOperationsInternal>
       </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="def77982-66c6-48c8-a44d-7b2821451399" name="VaccineNavn" isAbstract="false" isLeaf="false" cachedFullName="VaccineNavn">
+        <elementDefinition Id="f1690ea3-7765-411e-97c1-e14619496e0d" />
+      </referencedType>
     </packageHasNamedElement>
   </packagedElements>
   <package Id="6396c3ad-35ae-4fa1-b877-b83302d7edb6" name="ModelingProject1">

@@ -30,12 +30,12 @@
             Id="bc5b7427-8f34-4776-b727-b0e6e5ae2972"
             isDerived="false"
             sourceEndRoleName="bruger"
-            targetEndRoleName="registrering"
+            targetEndRoleName="Opret"
             isLeaf="false"
             isAbstract="false">
             <classMoniker
               Id="df11d900-d6e7-4c5b-b101-c1f7af02c70b"
-              LastKnownName="registrering"
+              LastKnownName="Opret"
               LastKnownLocation="ModelingProject1.uml" />
             <relationshipOwnedElementsInternal>
               <associationHasOwnedEnds>
@@ -54,7 +54,7 @@
               <associationHasOwnedEnds>
                 <memberEnd
                   Id="470d2bbf-f721-4d10-b9bf-1c249263c68d"
-                  name="registrering"
+                  name="Opret"
                   isLeaf="false"
                   isStatic="false"
                   isReadOnly="false"
@@ -169,7 +169,7 @@
     <packageHasNamedElement>
       <class
         Id="d4b09ffd-24e7-4644-9c31-708add37b8f1"
-        name="vaccineplan"
+        name="Vaccinehistorik"
         isAbstract="false"
         isLeaf="false"
         isActiveClass="false">
@@ -230,7 +230,7 @@
         <ownedAttributesInternal>
           <property
             Id="280eeed0-1b51-42d9-8635-88639e7a2501"
-            name="vaccine"
+            name="VaccineNavn"
             isLeaf="false"
             isStatic="false"
             isReadOnly="false"
@@ -250,13 +250,24 @@
             isDerivedUnion="false"
             aggregation="None"
             isComposite="false" />
+          <property
+            Id="82d9c819-8802-426f-80c2-8d102b4bb4c8"
+            name="Vaccineret"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
         </ownedAttributesInternal>
       </class>
     </packageHasNamedElement>
     <packageHasNamedElement>
       <class
         Id="df11d900-d6e7-4c5b-b101-c1f7af02c70b"
-        name="registrering"
+        name="Opret"
         isAbstract="false"
         isLeaf="false"
         isActiveClass="false">
@@ -292,7 +303,7 @@
             isAbstract="false">
             <classMoniker
               Id="d4b09ffd-24e7-4644-9c31-708add37b8f1"
-              LastKnownName="vaccineplan"
+              LastKnownName="Vaccinehistorik"
               LastKnownLocation="ModelingProject1.uml" />
             <relationshipOwnedElementsInternal>
               <associationHasOwnedEnds>
@@ -350,7 +361,7 @@
             isComposite="false" />
           <property
             Id="198125d9-64c4-4abb-a1a5-cf7b9ed42d00"
-            name="Time"
+            name="VaccineNavn"
             isLeaf="false"
             isStatic="false"
             isReadOnly="false"
@@ -407,6 +418,16 @@
         Id="711b1886-9a16-4920-a39b-28a8c69cebc0"
         LastKnownName="PersistencyService"
         LastKnownLocation="Package_1130.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="8fa70f15-219a-4792-acf3-3691bbe956b0"
+        name="Vaccineret" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <undefinedType
+        Id="f1690ea3-7765-411e-97c1-e14619496e0d"
+        name="VaccineNavn" />
     </packageHasNamedElement>
   </packagedElements>
   <primitiveType
