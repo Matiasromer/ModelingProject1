@@ -11,6 +11,47 @@
         isAbstract="false"
         isLeaf="false"
         isActiveClass="false">
+        <targetEnds>
+          <association
+            Id="9925e059-d715-46fd-94d8-31667bc2ebbd"
+            isDerived="false"
+            sourceEndRoleName="VaccineViewModel"
+            targetEndRoleName="VaccineSingleton"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="ac919226-c40f-407f-9695-809a1cd16616"
+              LastKnownName="VaccineSingleton"
+              LastKnownLocation="Package1_1129.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="fc934e18-9f77-4d2c-86c5-030a754103a0"
+                  name="VaccineViewModel"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="ffff8721-e308-4db9-ad9a-89023284a2c4"
+                  name="VaccineSingleton"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
         <ownedAttributesInternal>
           <property
             Id="3ff2a133-c240-4385-b549-4e3b80645b87"
@@ -57,6 +98,65 @@
             aggregation="None"
             isComposite="false" />
         </ownedAttributesInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="a13578fa-d32b-4435-9f5f-2c84cffbcc54"
+        name="BrugerViewModel"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <suppliersInternal>
+          <dependency
+            Id="ec432766-6f78-479f-9ace-aceac3ef6388">
+            <classMoniker
+              Id="f3a24586-90bd-47d6-9209-223a0e483e87"
+              LastKnownName="VaccineViewModel"
+              LastKnownLocation="Package_1127.uml" />
+          </dependency>
+        </suppliersInternal>
+        <targetEnds>
+          <association
+            Id="856766c6-721c-494e-a356-1166c84815bf"
+            isDerived="false"
+            sourceEndRoleName="BrugerViewModel"
+            targetEndRoleName="BrugerSingleton"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="20b86ce9-75b0-4fc3-8ef8-6e7a54525ea4"
+              LastKnownName="BrugerSingleton"
+              LastKnownLocation="Package1_1129.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="04958584-0522-46c8-8e1f-cb22ea94a505"
+                  name="BrugerViewModel"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="dce4dbd7-9e01-4d84-9221-8551fdcde810"
+                  name="BrugerSingleton"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
       </class>
     </packageHasNamedElement>
   </packagedElements>

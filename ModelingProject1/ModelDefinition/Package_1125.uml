@@ -13,10 +13,10 @@
         isActiveClass="false">
         <suppliersInternal>
           <dependency
-            Id="8c41d8f4-5699-4458-8c80-6781e7df5f92">
+            Id="14342303-cb72-4eeb-8ef8-744a8ce94a28">
             <classMoniker
-              Id="f3a24586-90bd-47d6-9209-223a0e483e87"
-              LastKnownName="VaccineViewModel"
+              Id="a13578fa-d32b-4435-9f5f-2c84cffbcc54"
+              LastKnownName="BrugerViewModel"
               LastKnownLocation="Package_1127.uml" />
           </dependency>
         </suppliersInternal>
@@ -31,10 +31,10 @@
         isActiveClass="false">
         <suppliersInternal>
           <dependency
-            Id="c2a134db-1cd2-4a20-8157-c429acc7b31d">
+            Id="afde64d6-bbc9-4b05-b882-b7f23fadc396">
             <classMoniker
-              Id="f3a24586-90bd-47d6-9209-223a0e483e87"
-              LastKnownName="VaccineViewModel"
+              Id="a13578fa-d32b-4435-9f5f-2c84cffbcc54"
+              LastKnownName="BrugerViewModel"
               LastKnownLocation="Package_1127.uml" />
           </dependency>
         </suppliersInternal>
@@ -97,7 +97,7 @@
     <packageHasNamedElement>
       <class
         Id="61794b89-a2e2-4bd3-8589-20d608b6280f"
-        name="Register"
+        name="Historik"
         isAbstract="false"
         isLeaf="false"
         isActiveClass="false">

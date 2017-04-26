@@ -429,6 +429,12 @@
         Id="f1690ea3-7765-411e-97c1-e14619496e0d"
         name="VaccineNavn" />
     </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="4ecc6cd8-f32c-4955-ba7a-60cc20cd08ed"
+        LastKnownName=".Net Lib"
+        LastKnownLocation="Package_1019.uml" />
+    </packageHasNamedElement>
   </packagedElements>
   <primitiveType
     Id="220a3521-e091-4221-bae9-3ef9018e845c"

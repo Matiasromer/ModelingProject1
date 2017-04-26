@@ -1,33 +1,33 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
   dslVersion="1.0.0.0"
-  Id="49a2dbd0-1086-459a-9db6-0b44819c05a1"
-  name="Handler" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  Id="4ecc6cd8-f32c-4955-ba7a-60cc20cd08ed"
+  name=".Net Lib" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
   <packagedElements>
     <packageHasNamedElement>
       <class
-        Id="ff312495-863a-4b2c-93b4-ff61504a2cd9"
-        name="BrugerHandler"
+        Id="5cb42fb0-8ca7-4483-bb76-103645f34e93"
+        name="ObservableCollection"
         isAbstract="false"
         isLeaf="false"
         isActiveClass="false">
         <targetEnds>
           <association
-            Id="5f4ac7ff-69ea-4214-b96a-a2e027e037fc"
+            Id="1dfd92a2-21fb-4360-b43a-cf64b27320f8"
             isDerived="false"
-            sourceEndRoleName="BrugerHandler"
-            targetEndRoleName="BrugerViewModel"
+            sourceEndRoleName="ObservableCollection"
+            targetEndRoleName="VaccineHistorik"
             isLeaf="false"
             isAbstract="false">
             <classMoniker
-              Id="a13578fa-d32b-4435-9f5f-2c84cffbcc54"
-              LastKnownName="BrugerViewModel"
-              LastKnownLocation="Package_1127.uml" />
+              Id="6c0c97c3-2f11-4a3e-8b10-9f1ecd5a1778"
+              LastKnownName="VaccineHistorik"
+              LastKnownLocation="Package1_1129.uml" />
             <relationshipOwnedElementsInternal>
               <associationHasOwnedEnds>
                 <memberEnd
-                  Id="99a2be5c-7bc9-49fb-8d41-ca5b608fee1d"
-                  name="BrugerHandler"
+                  Id="a6015e76-10ba-4df6-93dd-bcf939d8022d"
+                  name="ObservableCollection"
                   isLeaf="false"
                   isStatic="false"
                   isReadOnly="false"
@@ -39,8 +39,8 @@
               </associationHasOwnedEnds>
               <associationHasOwnedEnds>
                 <memberEnd
-                  Id="60009b8b-7cd5-4d63-b94b-54344d70dc00"
-                  name="BrugerViewModel"
+                  Id="64ed3384-daa0-40c1-b11b-ab2572c09bbf"
+                  name="VaccineHistorik"
                   isLeaf="false"
                   isStatic="false"
                   isReadOnly="false"
@@ -51,51 +51,22 @@
               </associationHasOwnedEnds>
             </relationshipOwnedElementsInternal>
           </association>
-        </targetEnds>
-        <ownedOperationsInternal>
-          <operation
-            Id="56cf6df1-73af-46a4-af22-72f3769f9170"
-            name="CreateBarn"
-            isLeaf="false"
-            isStatic="false"
-            isAbstract="false"
-            concurrency="Sequential"
-            isQuery="false" />
-          <operation
-            Id="cf9a8bd0-3cd5-4c81-9a25-995c7cfbd0d2"
-            name="DeleteBarn"
-            isLeaf="false"
-            isStatic="false"
-            isAbstract="false"
-            concurrency="Sequential"
-            isQuery="false" />
-        </ownedOperationsInternal>
-      </class>
-    </packageHasNamedElement>
-    <packageHasNamedElement>
-      <class
-        Id="2ca6e350-5722-4554-8b6a-518c837a74ab"
-        name="VaccineHandler"
-        isAbstract="false"
-        isLeaf="false"
-        isActiveClass="false">
-        <targetEnds>
           <association
-            Id="87c63b61-f697-4d50-9fa8-025ec970c6f6"
+            Id="d6fd83f2-89da-4a0e-9d87-61daec72674a"
             isDerived="false"
-            sourceEndRoleName="VaccineHandler"
-            targetEndRoleName="VaccineViewModel"
+            sourceEndRoleName="ObservableCollection"
+            targetEndRoleName="Kalender"
             isLeaf="false"
             isAbstract="false">
             <classMoniker
-              Id="f3a24586-90bd-47d6-9209-223a0e483e87"
-              LastKnownName="VaccineViewModel"
-              LastKnownLocation="Package_1127.uml" />
+              Id="319b0e2b-255b-434e-ba79-7899be67e4de"
+              LastKnownName="Kalender"
+              LastKnownLocation="Package1_1129.uml" />
             <relationshipOwnedElementsInternal>
               <associationHasOwnedEnds>
                 <memberEnd
-                  Id="89acb4fd-74bd-4b2d-99af-1be2922b33af"
-                  name="VaccineHandler"
+                  Id="3ba6ad7c-eef9-4620-8978-b08bd50d34f9"
+                  name="ObservableCollection"
                   isLeaf="false"
                   isStatic="false"
                   isReadOnly="false"
@@ -107,8 +78,47 @@
               </associationHasOwnedEnds>
               <associationHasOwnedEnds>
                 <memberEnd
-                  Id="4c51fcff-dd39-403c-adbd-3908d2b36de5"
-                  name="VaccineViewModel"
+                  Id="6d46a31d-e9be-4e4e-8180-b4e4db73b68c"
+                  name="Kalender"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="34c3f048-0954-40fb-91d1-b5cca56afb99"
+            isDerived="false"
+            sourceEndRoleName="ObservableCollection"
+            targetEndRoleName="Bruger"
+            isLeaf="false"
+            isAbstract="false">
+            <classMoniker
+              Id="7878e42b-ae6e-468f-a4af-b0b8411b4cce"
+              LastKnownName="Bruger"
+              LastKnownLocation="Package1_1129.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="df139916-0769-4061-a08c-17bd5ee428f5"
+                  name="ObservableCollection"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="dd468ed0-fe81-4042-ac4e-d6747c9b3a2b"
+                  name="Bruger"
                   isLeaf="false"
                   isStatic="false"
                   isReadOnly="false"
@@ -120,32 +130,6 @@
             </relationshipOwnedElementsInternal>
           </association>
         </targetEnds>
-        <ownedOperationsInternal>
-          <operation
-            Id="dd38c69c-c4b4-4abf-b780-38798aa9b8fd"
-            name="RegistrerVaccine"
-            isLeaf="false"
-            isStatic="false"
-            isAbstract="false"
-            concurrency="Sequential"
-            isQuery="false" />
-          <operation
-            Id="5b88929e-79a7-4829-a776-168530a5d78e"
-            name="GetKalender"
-            isLeaf="false"
-            isStatic="false"
-            isAbstract="false"
-            concurrency="Sequential"
-            isQuery="false" />
-          <operation
-            Id="c6bbde52-b1e5-4344-8033-fac62b2b2334"
-            name="GetVacciner"
-            isLeaf="false"
-            isStatic="false"
-            isAbstract="false"
-            concurrency="Sequential"
-            isQuery="false" />
-        </ownedOperationsInternal>
       </class>
     </packageHasNamedElement>
   </packagedElements>
