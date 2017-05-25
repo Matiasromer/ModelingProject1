@@ -348,42 +348,6 @@
             </class>
           </packageHasNamedElement>
           <packageHasNamedElement>
-            <class Id="51baf7e3-e5bf-491e-afae-9e07da9e2fa4" name="Barn" isAbstract="false" isLeaf="false" isActiveClass="false">
-              <elementDefinition Id="7878e42b-ae6e-468f-a4af-b0b8411b4cce" />
-              <ownedAttributesInternal>
-                <property Id="9add4879-da8c-4d44-823f-b554aeb7ea17" name="string" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
-                  <elementDefinition Id="f23387fd-f8a5-4dc9-8603-5c87ab9f4f0a" />
-                  <type_NamedElement>
-                    <referencedTypeMoniker Id="651bb2e7-de5e-4cd9-8c18-a8cd669577dd" LastKnownName="Barn_Navn" />
-                  </type_NamedElement>
-                </property>
-                <property Id="3f47a107-73a8-4dfd-9524-b1cfb3c45907" name="int" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
-                  <elementDefinition Id="bff46de7-b835-49de-9b50-35f85b28db73" />
-                  <type_NamedElement>
-                    <referencedTypeMoniker Id="2bf87941-0316-4d3d-b0cd-71ad6a4c5ace" LastKnownName="Barn_Id" />
-                  </type_NamedElement>
-                </property>
-                <property Id="ca05ede1-c794-44c8-985f-bcbfd5640002" name="String" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
-                  <elementDefinition Id="be4be501-057f-4494-b6a1-a81dd6a2a94c" />
-                  <type_NamedElement>
-                    <referencedTypeMoniker Id="f86a71db-4f32-4f1d-ab6a-1f94d0b3676b" LastKnownName="Gender" />
-                  </type_NamedElement>
-                </property>
-                <property Id="0287f803-f801-41e1-b027-876614a8d476" name="DateTime" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
-                  <elementDefinition Id="a689827f-ebaa-4f59-9a19-c82a8966213a" />
-                  <type_NamedElement>
-                    <referencedTypeMoniker Id="3530aef6-4609-4a12-9385-9f4543298859" LastKnownName="Barn_Foedsel" />
-                  </type_NamedElement>
-                </property>
-              </ownedAttributesInternal>
-              <ownedOperationsInternal>
-                <operation Id="eaccf70d-c7c5-45c2-b94c-8132410188f6" name="Barn" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
-                  <elementDefinition Id="f94ef064-c150-43f9-b7bd-462187f11bf5" />
-                </operation>
-              </ownedOperationsInternal>
-            </class>
-          </packageHasNamedElement>
-          <packageHasNamedElement>
             <class Id="765dbb08-8355-4a4b-b2af-506d1cb9d44f" name="Kalender" isAbstract="false" isLeaf="false" isActiveClass="false">
               <elementDefinition Id="319b0e2b-255b-434e-ba79-7899be67e4de" />
               <ownedAttributesInternal>
@@ -689,6 +653,42 @@
               </ownedOperationsInternal>
             </class>
           </packageHasNamedElement>
+          <packageHasNamedElement>
+            <class Id="51baf7e3-e5bf-491e-afae-9e07da9e2fa4" name="Barn" isAbstract="false" isLeaf="false" isActiveClass="false">
+              <elementDefinition Id="7878e42b-ae6e-468f-a4af-b0b8411b4cce" />
+              <ownedAttributesInternal>
+                <property Id="9add4879-da8c-4d44-823f-b554aeb7ea17" name="string" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="f23387fd-f8a5-4dc9-8603-5c87ab9f4f0a" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="651bb2e7-de5e-4cd9-8c18-a8cd669577dd" LastKnownName="Barn_Navn" />
+                  </type_NamedElement>
+                </property>
+                <property Id="3f47a107-73a8-4dfd-9524-b1cfb3c45907" name="int" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="bff46de7-b835-49de-9b50-35f85b28db73" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="2bf87941-0316-4d3d-b0cd-71ad6a4c5ace" LastKnownName="Barn_Id" />
+                  </type_NamedElement>
+                </property>
+                <property Id="ca05ede1-c794-44c8-985f-bcbfd5640002" name="String" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="be4be501-057f-4494-b6a1-a81dd6a2a94c" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="f86a71db-4f32-4f1d-ab6a-1f94d0b3676b" LastKnownName="Gender" />
+                  </type_NamedElement>
+                </property>
+                <property Id="0287f803-f801-41e1-b027-876614a8d476" name="DateTime" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="a689827f-ebaa-4f59-9a19-c82a8966213a" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="3530aef6-4609-4a12-9385-9f4543298859" LastKnownName="Barn_Foedsel" />
+                  </type_NamedElement>
+                </property>
+              </ownedAttributesInternal>
+              <ownedOperationsInternal>
+                <operation Id="eaccf70d-c7c5-45c2-b94c-8132410188f6" name="Barn" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+                  <elementDefinition Id="f94ef064-c150-43f9-b7bd-462187f11bf5" />
+                </operation>
+              </ownedOperationsInternal>
+            </class>
+          </packageHasNamedElement>
         </packagedElements>
       </package>
     </logicalClassDesignerModelHasPackages>
@@ -699,6 +699,84 @@
           <packageHasNamedElement>
             <class Id="b5d9e0f7-d395-48d6-aead-2111cc9fdee5" name="PersistencyService" isAbstract="false" isLeaf="false" isActiveClass="false">
               <elementDefinition Id="367422be-1db9-4d25-933a-2627aadd9dde" />
+              <ownedOperationsInternal>
+                <operation Id="db02f8c1-f981-4d06-bb10-27eac77f91f0" name="PostBarnAsync" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+                  <elementDefinition Id="1041967d-9023-497e-8e67-fd49cbd24d79" />
+                  <ownedParameters>
+                    <operationHasOwnedParameters>
+                      <parameter Id="e3f4b920-3486-4e7f-8658-0ec5b41cafc1" name="Barn PostBarn" direction="In" isUnique="false">
+                        <elementDefinition Id="7dba5a3d-ef67-4558-bec3-6cf1c532edba" />
+                      </parameter>
+                    </operationHasOwnedParameters>
+                  </ownedParameters>
+                </operation>
+                <operation Id="ffe88e1e-21a7-42cd-a5bc-f901abd590ac" name="PostKalenderAsync" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+                  <elementDefinition Id="2dc8ca34-b489-42e4-a5c0-7c297ee90af0" />
+                  <ownedParameters>
+                    <operationHasOwnedParameters>
+                      <parameter Id="14d80476-914f-447a-84cf-5125ef346c8b" name="Kalender k" direction="In" isUnique="false">
+                        <elementDefinition Id="7b70dc1a-825d-458f-bcba-7a2ba7dc9c67" />
+                      </parameter>
+                    </operationHasOwnedParameters>
+                  </ownedParameters>
+                </operation>
+                <operation Id="2c4ff37b-a535-4acb-a504-cefdb3f36ccd" name="Task&lt;ObservableCollection&lt;VaccineView&gt;&gt; GetVaccineViewAsync" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+                  <elementDefinition Id="46f38854-1dd4-469a-8a99-b995f895f248" />
+                </operation>
+                <operation Id="f9229ab9-84cf-4b25-a8f0-c9df6cd2fdd3" name="Task&lt;ObservableCollection&lt;VaccinePlanView&gt;&gt; GetVaccinePlanViewAsync" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+                  <elementDefinition Id="6da4de80-644d-466a-8940-65d3c86dbfee" />
+                  <ownedParameters>
+                    <operationHasOwnedParameters>
+                      <parameter Id="143c6f1b-24c4-4373-b3e5-0c8bfdd05b04" name="int id" direction="In" isUnique="false">
+                        <elementDefinition Id="e03adc1a-cf0f-40a1-84fc-2472c760a302" />
+                      </parameter>
+                    </operationHasOwnedParameters>
+                  </ownedParameters>
+                </operation>
+                <operation Id="4eda5515-fa72-4a3a-a8c1-cf87b0042555" name="DeleteBarnAsync" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+                  <elementDefinition Id="8c97e0a0-ba5b-4e23-9450-3608e87de21f" />
+                  <ownedParameters>
+                    <operationHasOwnedParameters>
+                      <parameter Id="2b72cebe-53f5-4ead-8d26-32062cf251db" name="Barn DeleteBarn" direction="In" isUnique="false">
+                        <elementDefinition Id="cb35e76f-0e48-4de2-97b5-904ba3a914c7" />
+                      </parameter>
+                    </operationHasOwnedParameters>
+                  </ownedParameters>
+                </operation>
+                <operation Id="55098691-0392-478b-94e7-2470d6cc7c6d" name="Task&lt;ObservableCollection&lt;Barn&gt;&gt; GetBarnAsync" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+                  <elementDefinition Id="9e1d0d47-569d-45e4-8d30-e3b4de4b9bd6" />
+                </operation>
+                <operation Id="21392820-da31-49dd-828f-fd26744c6fc6" name="Task&lt;ObservableCollection&lt;Kalender&gt;&gt; GetKalenderAsync" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+                  <elementDefinition Id="c5216597-d110-44f2-a8a1-7d58078af90b" />
+                  <ownedParameters>
+                    <operationHasOwnedParameters>
+                      <parameter Id="c703b653-71a1-4ebb-9bb6-3db96b24de4d" name="int id" direction="In" isUnique="false">
+                        <elementDefinition Id="c9e248ef-19ef-4827-8ad7-44501c4b2971" />
+                      </parameter>
+                    </operationHasOwnedParameters>
+                  </ownedParameters>
+                </operation>
+                <operation Id="83bad431-9e5d-468b-87ec-9740f67b2f0d" name="Task&lt;int&gt; GetKalenderSum" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+                  <elementDefinition Id="7d9c7ad8-ddb5-4713-b637-4135a291bbb7" />
+                  <ownedParameters>
+                    <operationHasOwnedParameters>
+                      <parameter Id="94a56e73-3194-40e6-851a-637a4360cd92" name="int barn" direction="In" isUnique="false">
+                        <elementDefinition Id="ca166d48-2190-497e-9942-a7656ec29dff" />
+                      </parameter>
+                    </operationHasOwnedParameters>
+                  </ownedParameters>
+                </operation>
+                <operation Id="6eafbf1b-4447-4e6f-9674-8299997fa86e" name="DeleteVaccineAsync" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+                  <elementDefinition Id="86552a04-0ebe-4a01-94b9-a344a19cc079" />
+                  <ownedParameters>
+                    <operationHasOwnedParameters>
+                      <parameter Id="195d03ca-5dda-457e-baa0-f1a36baa61a2" name="VaccinePlanView DeleteVaccine" direction="In" isUnique="false">
+                        <elementDefinition Id="3e37d22a-f193-4413-acb7-439ad6a3c342" />
+                      </parameter>
+                    </operationHasOwnedParameters>
+                  </ownedParameters>
+                </operation>
+              </ownedOperationsInternal>
             </class>
           </packageHasNamedElement>
         </packagedElements>
@@ -831,11 +909,6 @@
         <elementDefinition Id="c358d019-f5ac-4374-b460-8f3e2840c981" />
       </referencedType>
     </packageHasNamedElement>
-    <logicalClassDesignerModelHasPackages>
-      <package Id="374dfa53-1903-4cbe-841f-7ff04880db51" name="Package1">
-        <elementDefinition Id="93a67324-32f5-4ed9-b314-797cf18499b6" />
-      </package>
-    </logicalClassDesignerModelHasPackages>
   </packagedElements>
   <package Id="6396c3ad-35ae-4fa1-b877-b83302d7edb6" name="ModelingProject1">
     <elementDefinition Id="aa460366-cd12-45f6-aca3-1c7fea735581" />
