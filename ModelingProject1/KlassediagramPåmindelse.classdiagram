@@ -831,6 +831,11 @@
         <elementDefinition Id="c358d019-f5ac-4374-b460-8f3e2840c981" />
       </referencedType>
     </packageHasNamedElement>
+    <logicalClassDesignerModelHasPackages>
+      <package Id="374dfa53-1903-4cbe-841f-7ff04880db51" name="Package1">
+        <elementDefinition Id="93a67324-32f5-4ed9-b314-797cf18499b6" />
+      </package>
+    </logicalClassDesignerModelHasPackages>
   </packagedElements>
   <package Id="6396c3ad-35ae-4fa1-b877-b83302d7edb6" name="ModelingProject1">
     <elementDefinition Id="aa460366-cd12-45f6-aca3-1c7fea735581" />

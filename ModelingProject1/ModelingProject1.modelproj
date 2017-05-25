@@ -43,6 +43,9 @@
     <Content Include="ModelDefinition\Package_1130.uml">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="ModelDefinition\Package_1209.uml">
+      <SubType>Content</SubType>
+    </Content>
     <Folder Include="ModelDefinition\" />
     <Content Include="DomainModelPåmindelse.classdiagram">
       <SubType>Content</SubType>

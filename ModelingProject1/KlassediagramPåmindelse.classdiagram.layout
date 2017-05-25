@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<logicalClassDesignerDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 15.125, 13.25" name="KlassediagramPåmindelse">
+<logicalClassDesignerDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 15.125, 13.875" name="KlassediagramPåmindelse">
   <logicalClassDesignerModelMoniker Id="ed2452cb-6e09-459a-9fb7-e173cf2ec828" />
   <nestedChildShapes>
     <packageShape Id="e7b47c09-03ce-4a31-8c4e-f8718228e8a9" absoluteBounds="0.75, 1, 10.375, 1.625" customColor="255, 249, 230" hideQualifiedName="false">
@@ -344,5 +344,8 @@
         <classShapeMoniker Id="dc9f2831-f145-43d6-bac0-f9eca2a6df42" />
       </nodes>
     </associationConnector>
+    <packageShape Id="781e2fd9-2540-439b-8a57-ff0a5b4063b1" absoluteBounds="2, 12.625, 1.5, 1" customColor="255, 249, 230" hideQualifiedName="false">
+      <packageMoniker Id="374dfa53-1903-4cbe-841f-7ff04880db51" LastKnownName="Package1" />
+    </packageShape>
   </nestedChildShapes>
 </logicalClassDesignerDiagram>

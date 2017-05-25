@@ -435,6 +435,12 @@
         LastKnownName=".Net Lib"
         LastKnownLocation="Package_1019.uml" />
     </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="93a67324-32f5-4ed9-b314-797cf18499b6"
+        LastKnownName="Package1"
+        LastKnownLocation="Package_1209.uml" />
+    </packageHasNamedElement>
   </packagedElements>
   <primitiveType
     Id="220a3521-e091-4221-bae9-3ef9018e845c"
