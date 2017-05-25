@@ -54,8 +54,8 @@
         </targetEnds>
         <ownedAttributesInternal>
           <property
-            Id="3ff2a133-c240-4385-b549-4e3b80645b87"
-            name="ICommand CreateBarn"
+            Id="5e1e4989-bc2c-44ca-b6d0-0dc822205fde"
+            name="ICommand GetVaccineCommand"
             isLeaf="false"
             isStatic="false"
             isReadOnly="false"
@@ -65,8 +65,8 @@
             aggregation="None"
             isComposite="false" />
           <property
-            Id="74508084-502a-457b-8a3f-d0c8f0fc98f4"
-            name="ICommand DeleteBarn"
+            Id="1a632f6c-593b-40d5-a236-3d8328eb1b3c"
+            name="ICommand OpretKalenderCommand"
             isLeaf="false"
             isStatic="false"
             isReadOnly="false"
@@ -76,8 +76,8 @@
             aggregation="None"
             isComposite="false" />
           <property
-            Id="4bd1f7e6-b1d4-40dc-871f-7fc259be0e22"
-            name="string BarnNavn"
+            Id="25d4bcac-9e68-4bb8-98c5-d3690887dc18"
+            name="int Vac_Id"
             isLeaf="false"
             isStatic="false"
             isReadOnly="false"
@@ -87,8 +87,30 @@
             aggregation="None"
             isComposite="false" />
           <property
-            Id="30ca7e6a-cdfc-4f49-8ea9-00b35fa1f658"
-            name="int BarnCpr"
+            Id="b925003a-fb09-43d2-bc26-3ba4b7714fe6"
+            name="string Vac_Name"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="5b35ebeb-7e5f-41b7-97c6-d9b89a81318f"
+            name="string Vac_Info"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="9713c410-5f73-4b24-b937-dc3780a41a23"
+            name="VaccineViewSingleton"
             isLeaf="false"
             isStatic="false"
             isReadOnly="false"
@@ -98,6 +120,16 @@
             aggregation="None"
             isComposite="false" />
         </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="61fe2a82-596d-42c9-9633-e105e2cfdf91"
+            name="VaccineViewmodel"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+        </ownedOperationsInternal>
       </class>
     </packageHasNamedElement>
     <packageHasNamedElement>
@@ -157,6 +189,111 @@
             </relationshipOwnedElementsInternal>
           </association>
         </targetEnds>
+        <ownedAttributesInternal>
+          <property
+            Id="6fe309a8-8094-451d-ad31-d963f41c2130"
+            name="Datetime Barnfødselsdag"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="0073ebe2-1a28-4597-9055-aa0454387c06"
+            name="ICommand CreateBarn"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="652674e6-366f-4d16-81c6-f8636ba88950"
+            name="ICommand DeleteBarn"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="2a1f7cc7-2d87-445e-b8fe-9ccff91b75fc"
+            name="string BarnNavn"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="5a11649b-63ff-4c0f-aad7-b203a4bfe8de"
+            name="String Gender"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="1fb6cebf-d265-41c3-97b9-a8b975dbbb5c"
+            name="VaccineViewSingleton"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+          <property
+            Id="70967f70-b814-42e7-841d-d4130c72f677"
+            name="BarnSingleton"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isUnique="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false" />
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="b60aca66-f07a-42ed-a9c7-ba33465e03a2"
+            name="BrugerViewModel"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="9fcbc0af-8115-4298-a68d-76a8ea1199eb"
+            name="CanDeleteBarn"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="50f844d4-f077-425c-b3d2-18def9a35228"
+            name="CanCreateBarnNavn"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+        </ownedOperationsInternal>
       </class>
     </packageHasNamedElement>
   </packagedElements>

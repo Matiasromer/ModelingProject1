@@ -7,7 +7,7 @@
     <packageHasNamedElement>
       <class
         Id="ff312495-863a-4b2c-93b4-ff61504a2cd9"
-        name="BrugerHandler"
+        name="BarnHandler"
         isAbstract="false"
         isLeaf="false"
         isActiveClass="false">
@@ -64,6 +64,14 @@
           <operation
             Id="cf9a8bd0-3cd5-4c81-9a25-995c7cfbd0d2"
             name="DeleteBarn"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false" />
+          <operation
+            Id="16b8b1c3-157d-47bb-9694-af237bf131f4"
+            name="GetBarn"
             isLeaf="false"
             isStatic="false"
             isAbstract="false"

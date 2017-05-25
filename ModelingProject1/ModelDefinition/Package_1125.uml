@@ -7,7 +7,7 @@
     <packageHasNamedElement>
       <class
         Id="f5285c1d-a50f-4bbb-a277-fb47794f0059"
-        name="MainPage"
+        name="Forside"
         isAbstract="false"
         isLeaf="false"
         isActiveClass="false">
@@ -25,7 +25,7 @@
     <packageHasNamedElement>
       <class
         Id="a92e183b-52d0-4015-a52a-0c363a8886b0"
-        name="Bruger"
+        name="Opret"
         isAbstract="false"
         isLeaf="false"
         isActiveClass="false">
@@ -61,7 +61,7 @@
     <packageHasNamedElement>
       <class
         Id="830b7d43-bf1c-4a50-b442-7cd1c59c246b"
-        name="OpretVacc"
+        name="VaccinationInfo"
         isAbstract="false"
         isLeaf="false"
         isActiveClass="false">
